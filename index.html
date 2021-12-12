@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Temperature Dashboard</title>
+</head>
+<body>
+    <h1>Temperature Dashboard</h1>
+    <p>
+        Average Temperature Over 7 Days: {{ averageTempWeek }}<br>
+        Average Temperature Over 1 Day: {{ averageTempDay }}<br>
+        Motion Detections Over 7 Days: {{ motionDetectionsWeek }}<br>
+        Motion Detections Over 1 Day: {{ motionDetectionsDay }}<br>
+        <br>
+        Last Temp Drop At: {{ lastTempDrop }}<br>
+        Current Temperature: {{ currentTemp }} (measured at {{ currentTempTime }})
+    </p>
+</body>
+</html>
