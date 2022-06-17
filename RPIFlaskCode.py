@@ -15,7 +15,7 @@ motionDetections = []
 temperatures = []
 lastTempDrop = datetime.min
 dataLock = threading.Lock()
-pb = Pushbullet("o.sVrXDdYOCWjvZyOeVCvZaaUCdeqsVxQL")
+pb = Pushbullet("{{pushbullet api key}}")
 
 
 @app.route('/')
